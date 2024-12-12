@@ -1,5 +1,5 @@
 import React from "react";
-import Carousel from "./carousel";
+import Carousel from "./Carousel";
 import { Link, useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { addPrdToCart } from "../utils/Redux/reducer";
