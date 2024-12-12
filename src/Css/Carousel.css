@@ -1,0 +1,61 @@
+.prdImg {
+  position: absolute;
+  transition: 1s;
+  width: 100%;
+}
+.carousel {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+}
+.btn-container {
+  position: absolute;
+  display: flex;
+  gap: 200px;
+  margin: 50% 10px;
+}
+.iterator-container {
+  position: absolute;
+  display: flex;
+  gap: 10px;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+  justify-content: center;
+  align-items: end;
+  bottom: 10px;
+}
+.increment-btn,
+.decrement-btn {
+  background-color: transparent;
+  border: 2px solid grey;
+  color: grey;
+  border-radius: 50%;
+  padding: 20px;
+  display: flex;
+  width: 0;
+  height: 0;
+  justify-content: center;
+  align-items: center;
+}
+.increment-btn {
+  left: 10px;
+}
+.decrement-btn {
+  right: 10px;
+}
+.fa-greater-than,
+.fa-less-than {
+  font-weight: bold;
+}
+.iterator {
+  padding: 8px;
+  display: inline-block;
+  border-radius: 50%;
+  width: 0px;
+  height: 0px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
