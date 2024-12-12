@@ -4,6 +4,8 @@ https://github.com/Raj2902/Shoppy_Globe
 
 # Live url
 
+https://shoppy-globe-dusky.vercel.app/
+
 # Project details
 
 1. I have used multiple css files which can be fit confusing for person seeing project for the first time, navigate to the paths and you can find them easily while most of the css is in app.css
