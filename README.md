@@ -1,5 +1,7 @@
 # Github url
 
+https://github.com/Raj2902/Shoppy_Globe
+
 # Live url
 
 # Project details
