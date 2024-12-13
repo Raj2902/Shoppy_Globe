@@ -56,7 +56,11 @@ export default function ModalComponent({ openModal, setOpenModal }) {
           <form className="modalForm" action="#" onSubmit={handleSubmit}>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="fullName" value="Full Name" />
+                <Label
+                  className="dark:text-black"
+                  htmlFor="fullName"
+                  value="Full Name"
+                />
               </div>
               <TextInput
                 id="fullName"
@@ -73,7 +77,11 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="phno" value="Phone Number" />
+                <Label
+                  className="dark:text-black"
+                  htmlFor="phno"
+                  value="Phone Number"
+                />
               </div>
               <TextInput
                 id="phno"
@@ -90,7 +98,11 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="email" value="Email" />
+                <Label
+                  className="dark:text-black"
+                  htmlFor="email"
+                  value="Email"
+                />
               </div>
               <TextInput
                 id="email"
@@ -107,7 +119,11 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="address" value="Street Address" />
+                <Label
+                  className="dark:text-black"
+                  htmlFor="address"
+                  value="Street Address"
+                />
               </div>
               <TextInput
                 id="addresss"
@@ -125,6 +141,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             <div>
               <div className="mb-2 block">
                 <Label
+                  className="dark:text-black"
                   htmlFor="apartment"
                   value="Apartment/Suite/Floor Number"
                 />
@@ -144,7 +161,11 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="city" value="City/Town" />
+                <Label
+                  className="dark:text-black"
+                  htmlFor="city"
+                  value="City/Town"
+                />
               </div>
               <TextInput
                 id="city"
@@ -161,7 +182,11 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="state" value="state" />
+                <Label
+                  className="dark:text-black"
+                  htmlFor="state"
+                  value="state"
+                />
               </div>
               <TextInput
                 id="state"
@@ -178,7 +203,11 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="country" value="country" />
+                <Label
+                  className="dark:text-black"
+                  htmlFor="country"
+                  value="country"
+                />
               </div>
               <TextInput
                 id="country"
@@ -195,7 +224,11 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="zipcode" value="zipcode" />
+                <Label
+                  className="dark:text-black"
+                  htmlFor="zipcode"
+                  value="zipcode"
+                />
               </div>
               <TextInput
                 id="zipcode"
@@ -212,7 +245,11 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="landmark" value="Landmark" />
+                <Label
+                  className="dark:text-black"
+                  htmlFor="landmark"
+                  value="Landmark"
+                />
               </div>
               <TextInput
                 id="landmark"
