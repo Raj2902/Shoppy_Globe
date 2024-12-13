@@ -5,6 +5,7 @@ import { Outlet } from "react-router-dom";
 import { getPrdFromCart } from "./utils/Redux/reducer";
 import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import FooterComponent from "./Components/Footer";
 
 function App() {
   const dispatch = useDispatch();
@@ -14,6 +15,7 @@ function App() {
       <div>
         <Header />
         <Outlet />
+        <FooterComponent />
         <ToastContainer />
         {/* <NotFound /> */}
       </div>
