@@ -56,7 +56,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
           <form className="modalForm" action="#" onSubmit={handleSubmit}>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="fullName" value="Full Name" />
+                <Label htmlFor="fullName">Full Name</Label>
               </div>
               <TextInput
                 id="fullName"
@@ -73,7 +73,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="phno" value="Phone Number" />
+                <Label htmlFor="phno">Phone Number</Label>
               </div>
               <TextInput
                 id="phno"
@@ -90,7 +90,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="email" value="Email" />
+                <Label htmlFor="email">Email</Label>
               </div>
               <TextInput
                 id="email"
@@ -107,7 +107,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="address" value="Street Address" />
+                <Label htmlFor="address">Street Address</Label>
               </div>
               <TextInput
                 id="addresss"
@@ -124,10 +124,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label
-                  htmlFor="apartment"
-                  value="Apartment/Suite/Floor Number"
-                />
+                <Label htmlFor="apartment">Apartment/Suite/Floor Number</Label>
               </div>
               <TextInput
                 id="apartment"
@@ -144,7 +141,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="city" value="City/Town" />
+                <Label htmlFor="city">City/Town</Label>
               </div>
               <TextInput
                 id="city"
@@ -161,7 +158,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="state" value="state" />
+                <Label htmlFor="state">State</Label>
               </div>
               <TextInput
                 id="state"
@@ -178,7 +175,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="country" value="country" />
+                <Label htmlFor="country">Country</Label>
               </div>
               <TextInput
                 id="country"
@@ -195,7 +192,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="zipcode" value="zipcode" />
+                <Label htmlFor="zipcode">Zipcode</Label>
               </div>
               <TextInput
                 id="zipcode"
@@ -212,7 +209,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="landmark" value="Landmark" />
+                <Label htmlFor="landmark">Landmark</Label>
               </div>
               <TextInput
                 id="landmark"
