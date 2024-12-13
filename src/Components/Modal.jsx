@@ -49,14 +49,14 @@ export default function ModalComponent({ openModal, setOpenModal }) {
     <Modal show={openModal} size="md" onClose={onCloseModal} popup>
       <Modal.Header />
       <Modal.Body>
-        <div className="space-y-6">
-          <h3 className="text-xl font-medium text-gray-900 dark:text-white">
+        <div className="space-y-6 dark:text-black">
+          <h3 className="text-xl font-medium text-gray-900">
             Delivery Address
           </h3>
           <form className="modalForm" action="#" onSubmit={handleSubmit}>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="fullName">Full Name</Label>
+                <Label htmlFor="fullName" value="Full Name" />
               </div>
               <TextInput
                 id="fullName"
@@ -73,7 +73,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="phno">Phone Number</Label>
+                <Label htmlFor="phno" value="Phone Number" />
               </div>
               <TextInput
                 id="phno"
@@ -90,7 +90,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="email">Email</Label>
+                <Label htmlFor="email" value="Email" />
               </div>
               <TextInput
                 id="email"
@@ -107,7 +107,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="address">Street Address</Label>
+                <Label htmlFor="address" value="Street Address" />
               </div>
               <TextInput
                 id="addresss"
@@ -124,7 +124,10 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="apartment">Apartment/Suite/Floor Number</Label>
+                <Label
+                  htmlFor="apartment"
+                  value="Apartment/Suite/Floor Number"
+                />
               </div>
               <TextInput
                 id="apartment"
@@ -141,7 +144,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="city">City/Town</Label>
+                <Label htmlFor="city" value="City/Town" />
               </div>
               <TextInput
                 id="city"
@@ -158,7 +161,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="state">State</Label>
+                <Label htmlFor="state" value="state" />
               </div>
               <TextInput
                 id="state"
@@ -175,7 +178,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="country">Country</Label>
+                <Label htmlFor="country" value="country" />
               </div>
               <TextInput
                 id="country"
@@ -192,7 +195,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="zipcode">Zipcode</Label>
+                <Label htmlFor="zipcode" value="zipcode" />
               </div>
               <TextInput
                 id="zipcode"
@@ -209,7 +212,7 @@ export default function ModalComponent({ openModal, setOpenModal }) {
             </div>
             <div>
               <div className="mb-2 block">
-                <Label htmlFor="landmark">Landmark</Label>
+                <Label htmlFor="landmark" value="Landmark" />
               </div>
               <TextInput
                 id="landmark"
